@@ -1,0 +1,15 @@
+<html>
+    <script src="../statebasedml.js"></script>
+    <body>
+        <div>
+            <p id="line1"></p>
+            <p id="line2"></p>
+            <p id="line3"></p>
+        </div>
+    </body>
+    <script>
+        const my_data = new data("hello there");
+        var response1 = my_data.train()
+        document.getElementById("line1").innerText = response1;
+    </script>
+</html>
